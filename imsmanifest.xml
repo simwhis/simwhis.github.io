@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<manifest identifier="FlowContentManifest" version="1.2"
+    xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+    xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+    http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+    http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+    <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+        <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1">
+            <general>
+                <title>
+                    <langstring>Reflective learning</langstring>
+                </title>
+                <description>
+                    <langstring>Online learning to develop reflective practice and learning journals.</langstring>
+                </description>
+            </general>
+            <rights>
+                <description>
+                    <langstring>Copyright Flow Hospitality Training Ltd. 2021 All Rights Reserved</langstring>
+                </description>
+            </rights>
+        </lom>
+    </metadata>
+    <organizations default="One">
+        <organization identifier="One">
+            <title>Reflective learning</title>
+            <item identifier="item1" identifierref="SCO1">
+                <title>Reflective learning</title>
+            </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="SCO1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+            <file href="imsmanifest.xml"/>
+            <file href="index.html"/>
+            
+            <file href="js/xd2.js"/>
+            <file href="js/jquery.js"/>
+            <file href="js/jquery.json.js"/>
+            <file href="js/flowapi.js"/>
+            <file href="js/stub.js"/>
+            
+            
+        </resource>
+    </resources>
+</manifest>
